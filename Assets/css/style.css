@@ -1,0 +1,48 @@
+@import url("./reset.css");
+@import url("./variable.css");
+
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--fontRoboto);
+}
+
+.header{
+    display:flex;
+    padding: 32px;
+    align-items: center;
+    justify-content: space-between;
+    height: 107px;
+    border-bottom: 1px solid var(--grey10);
+   
+    
+}
+.logo-name{
+    color: var(--textblack);
+    font-family: var(--fontOpen);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1.28px
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.nav-content{
+    display: flex;
+    gap: 40px;
+}
+.nav-list {
+    text-decoration: none;
+    color: var(--textblack);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.36px;
+}
+.nav-item:last-child .nav-list{
+    color: var(--maingreen);
+    font-weight: 800;
+}
