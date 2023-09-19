@@ -221,3 +221,41 @@ font-family: var(--fontOpen);
 .btn{
     margin-top:40px;
 }
+.blck-btn:hover{
+    opacity: .7;
+}
+.footer{
+margin: 40px 56px;
+
+    
+}
+.nav-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-title{
+    color: var(--textblack);
+    font-family: var(--fontOpen);
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.96px;
+}
+.foot-nav-item:last-child .li-text{
+    color: var(--maingreen);
+    font-weight: 700;
+
+}
+.li-text{
+    text-decoration: none;
+    color: var(--textblack);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+.foot-nav-dis{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
